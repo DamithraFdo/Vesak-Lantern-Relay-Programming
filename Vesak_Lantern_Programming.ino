@@ -2,6 +2,8 @@
  * StrydoLabs All Right Recived|strydolabs@gmail.com|damithrafdo@gmail.com|+94716507322|
  * Vesak Lantern Relay Programming *8 Pattern
  * Hardware Specification: Arduino UNO, 8Ch Relay
+ * Simulation: https://wokwi.com/projects/399891869136786433
+ * Github:https://github.com/DamithraFdo/Vesak-Lantern-Relay-Programming
  */
 void setup() {
   pinMode(2,OUTPUT); //Relay line 01
