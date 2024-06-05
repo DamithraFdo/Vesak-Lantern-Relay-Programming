@@ -33,26 +33,146 @@ void loop() {
   delay(10);
 }
 void Pattern1(){
-  
+  pinMode(2, HIGH);
+  delay()
+  pinMode(3, HIGH);
+  delay()
+  pinMode(4, HIGH);
+  delay()
+  pinMode(5, HIGH);
+  delay()
+  pinMode(6, HIGH);
+  delay()
+  pinMode(7, HIGH);
+  delay()
+  pinMode(8, HIGH);
+  delay()
+  pinMode(9, HIGH);
+  delay()
 }
 void Pattern2(){
-  
+  pinMode(2, HIGH);
+  delay()
+  pinMode(3, HIGH);
+  delay()
+  pinMode(4, HIGH);
+  delay()
+  pinMode(5, HIGH);
+  delay()
+  pinMode(6, HIGH);
+  delay()
+  pinMode(7, HIGH);
+  delay()
+  pinMode(8, HIGH);
+  delay()
+  pinMode(9, HIGH);
+  delay()
 }
 void Pattern3(){
-  
+  pinMode(2, HIGH);
+  delay()
+  pinMode(3, HIGH);
+  delay()
+  pinMode(4, HIGH);
+  delay()
+  pinMode(5, HIGH);
+  delay()
+  pinMode(6, HIGH);
+  delay()
+  pinMode(7, HIGH);
+  delay()
+  pinMode(8, HIGH);
+  delay()
+  pinMode(9, HIGH);
+  delay()
 }
 void Pattern4(){
-  
+  pinMode(2, HIGH);
+  delay()
+  pinMode(3, HIGH);
+  delay()
+  pinMode(4, HIGH);
+  delay()
+  pinMode(5, HIGH);
+  delay()
+  pinMode(6, HIGH);
+  delay()
+  pinMode(7, HIGH);
+  delay()
+  pinMode(8, HIGH);
+  delay()
+  pinMode(9, HIGH);
+  delay()
 }
 void Pattern5(){
-  
+  pinMode(2, HIGH);
+  delay()
+  pinMode(3, HIGH);
+  delay()
+  pinMode(4, HIGH);
+  delay()
+  pinMode(5, HIGH);
+  delay()
+  pinMode(6, HIGH);
+  delay()
+  pinMode(7, HIGH);
+  delay()
+  pinMode(8, HIGH);
+  delay()
+  pinMode(9, HIGH);
+  delay()
 }
 void Pattern6(){
-  
+  pinMode(2, HIGH);
+  delay()
+  pinMode(3, HIGH);
+  delay()
+  pinMode(4, HIGH);
+  delay()
+  pinMode(5, HIGH);
+  delay()
+  pinMode(6, HIGH);
+  delay()
+  pinMode(7, HIGH);
+  delay()
+  pinMode(8, HIGH);
+  delay()
+  pinMode(9, HIGH);
+  delay()
 }
 void Pattern7(){
-  
+  pinMode(2, HIGH);
+  delay()
+  pinMode(3, HIGH);
+  delay()
+  pinMode(4, HIGH);
+  delay()
+  pinMode(5, HIGH);
+  delay()
+  pinMode(6, HIGH);
+  delay()
+  pinMode(7, HIGH);
+  delay()
+  pinMode(8, HIGH);
+  delay()
+  pinMode(9, HIGH);
+  delay()
 }
 void Pattern8(){
-  
+  pinMode(2, HIGH);
+  delay()
+  pinMode(3, HIGH);
+  delay()
+  pinMode(4, HIGH);
+  delay()
+  pinMode(5, HIGH);
+  delay()
+  pinMode(6, HIGH);
+  delay()
+  pinMode(7, HIGH);
+  delay()
+  pinMode(8, HIGH);
+  delay()
+  pinMode(9, HIGH);
+  delay()
 }
