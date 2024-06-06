@@ -21,16 +21,20 @@ void loop() {
   delay(1000);
   Pattern2();
   delay(1000);
-  Pattern3();
+  for(int i=0; i<6; i++){
+  Pattern3();//wata 6k forloop
   delay(1000);
+  }
   Pattern4();
   delay(1000);
   Pattern5();
   delay(1000);
   Pattern6();
   delay(1000);
-  Pattern7();
+  for(int i=0; i<6; i++){
+  Pattern7();//wata 6k forloop
   delay(1000);
+  }
   Pattern8();
   delay(1000);
 }
@@ -94,7 +98,7 @@ void Pattern2(){          //2,3,4,5,6 eken eke on wenna one itapasse off wela 6,
   digitalWrite(9, LOW);
     delay(1000);
 }
-void Pattern3(){        //knight rider 2-6, 6-2 (ok)
+void Pattern3(){        //knight rider 2-6, 6-2 (ok) // wata 6k 
    for (int i=2; i<6; i++){
   digitalWrite(i, HIGH);
   delay(50);
@@ -155,24 +159,23 @@ void Pattern6(){          //2,4,6,on after 3,5,on (ok)
   digitalWrite(9, LOW);
   delay(8000);
 }
-void Pattern7(){          //knight rider (ok)
-  for (int i=2; i<9; i++){
-  digitalWrite(i, HIGH);
-  delay(50);
-  digitalWrite(i+1, HIGH);
-  delay(50);
-  digitalWrite(i, LOW);
+void Pattern7(){          //(ok)
+  for (int c = 0; c < 3; c++) {
+    for (int i = -2; i < 8; i++) {
+      digitalWrite(i-1, LOW);
+      digitalWrite(i, HIGH);
+      digitalWrite(i+1, HIGH);
+      digitalWrite(i+2, HIGH);
+      delay(25);
+    }
+    for (int i = 8; i > -2; i--) {
+      digitalWrite(i+1, LOW);
+      digitalWrite(i, HIGH);
+      digitalWrite(i-1, HIGH);
+      digitalWrite(i-2, HIGH);
+      delay(25);
+    }  
   }
-  delay(100);
-  
-  for (int i=9; i>1; i--){
-  digitalWrite(i, HIGH);
-  delay(50);
-  digitalWrite(i-1, HIGH);
-  delay(50);
-  digitalWrite(i, LOW);
-  }
-  delay(100);
 }
 void Pattern8(){        //6,7 on (ok)
   digitalWrite(2, LOW);
