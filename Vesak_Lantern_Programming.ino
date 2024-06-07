@@ -14,6 +14,8 @@ void setup() {
   pinMode(7,OUTPUT); //Relay line 06
   pinMode(8,OUTPUT); //Relay line 07
   pinMode(9,OUTPUT); //Relay line 08
+
+  Startup();
 }
 
 void loop() {
@@ -187,4 +189,15 @@ void Pattern8(){        //6,7 on (ok)
   digitalWrite(8, LOW);
   digitalWrite(9, LOW);
   delay(8000);
+}
+void Startup(){
+  digitalWrite(2, HIGH);
+  digitalWrite(3, HIGH);
+  digitalWrite(4, HIGH);
+  digitalWrite(5, HIGH);
+  digitalWrite(6, HIGH);
+  digitalWrite(7, HIGH);
+  digitalWrite(8, HIGH);
+  digitalWrite(9, HIGH);
+  delay(5000);
 }
