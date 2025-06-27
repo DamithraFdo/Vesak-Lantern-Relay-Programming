@@ -80,7 +80,7 @@ GitHub Repo: [github.com/DamithraFdo/Vesak-Lantern-Relay-Programming](https://gi
 
 ## 📩 Contact
 
-Developed by **Dqmithra Fernando from StrydoLabs**
+Developed by **Damithra Fernando from StrydoLabs**
 
 - 📧 Email: [strydolabs@gmail.com](mailto:strydolabs@gmail.com)
 - 📧 Support: [damithrafdo@gmail.com](mailto:damithrafdo@gmail.com)
